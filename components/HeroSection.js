@@ -1,7 +1,7 @@
 export default function HeroSection() {
   return (
     <main className="max-w-10xl">
-      <div className="flex flex-col p-5 gap-4 text-2xl font-semibold sm:flex-row sm:items-center md:text-3xl lg:text-5xl">
+      <div className="flex flex-col p-5 gap-4 text-2xl font-semibold sm:flex-row-reverse sm:items-center md:text-3xl lg:text-5xl">
         <img src="Illustration.svg" alt="hero" className="sm:w-80 md:w-96 lg:w-auto" />
        <div className="sm:ml-4">
        <h1>
