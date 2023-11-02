@@ -9,7 +9,7 @@ export default function HeroSection() {
           with NextDines
         </h1>
         <div className="flex items-center justify-start text-sm mt-2 ">
-            <button className="bg-orange-500 text-white rounded-lg px-4 py-2 text-lg font-normal">
+            <button className="bg-orange-500 text-white rounded-lg px-4 py-2 text-lg font-normal hover:bg-orange-600 transition-all ease-in-out">
             Get Started
             </button>
             <h1 className="font-normal text-slate-500">— Web, iOs and Android</h1>

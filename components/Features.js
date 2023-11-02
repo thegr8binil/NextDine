@@ -50,6 +50,21 @@ const features = () => {
           <img src="3l.png" alt="automation" className="" />
         </div>
       </main>
+      <main className="max-w-10xl flex flex-col-reverse gap-4 mt-6 px-5 items-center sm:flex-row xl:gap-48 justify-between">
+        <div className="flex flex-col gap-3 max-w-xl">
+          <h1 className="text-4xl font-bold xl:text-6xl">
+            The Product we <br/>work with.
+          </h1>
+        </div>
+        <div>
+          <p className="text-sectext text-sm max-w-lg">
+            Cloud-Based Restaurant ERP supports your business on any device.
+            Experience the freedom and flexibility of managing your operations
+            seamlessly, whether you're using a desktop, laptop, tablet, or
+            mobile phone
+          </p>
+        </div>
+      </main>
     </div>
   );
 };

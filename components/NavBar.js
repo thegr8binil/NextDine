@@ -40,7 +40,7 @@ const navBar = () => {
         <h1>NextDine</h1>
       </div>
       <div>
-        <button className="bg-white text-orange-500 rounded-lg px-4 py-2 border border-orange-500">
+        <button className="bg-white text-orange-500 rounded-lg px-4 py-2 border border-orange-500 hover:bg-orange-500 hover:text-white">
         Request a Demo
         </button>
       </div>
