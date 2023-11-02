@@ -19,6 +19,8 @@ module.exports = {
       },
       colors: {
         borange: "#FF8709",
+        textgr: "#BDBDBD",
+        sectext: "#7B7B7B",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
