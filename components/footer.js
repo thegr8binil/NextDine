@@ -2,7 +2,7 @@ const footer = () => {
   return (
     <main>
       <div
-        className="bg-cover bg-center max-w-9xl mt-8 flex items-center justify-center"
+        className="bg-cover bg-center max-w-9xl mt-8 flex items-center justify-center h-96"
         style={{
           backgroundImage: `url("t.png")`,
         }}
