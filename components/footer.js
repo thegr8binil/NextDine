@@ -1,3 +1,4 @@
+import Modal from "@/components/Modal";
 const footer = () => {
   return (
     <main>
@@ -17,24 +18,7 @@ const footer = () => {
           <p className="text-white text-lg md:text-xl lg:text-2xl">
             Try demo for 7 days with full features.
           </p>
-          <button className="text-orange-500 bg-white p-3 flex gap-3 px-6 rounded-lg">
-            <h1 className="text-lg">Try free demo</h1>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="24"
-              height="24"
-              viewBox="0 0 24 24"
-              fill="none"
-            >
-              <path
-                d="M4 9L12 17L20 9"
-                stroke="#FF7235"
-                stroke-width="2"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-            </svg>
-          </button>
+          <Modal buttonText="Try for Free" />
           <div></div>
         </div>
       </div>

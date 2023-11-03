@@ -6,6 +6,7 @@ import Features from "@/components/Features";
 import Cards from "@/components/Cards";
 import Footer from "@/components/Footer";
 
+
 const Poppin = Poppins({ subsets: ["latin"], weight: "400" });
 
 export const metadata = {
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
           <Features/>
           <Cards/>
           <Footer/>
+        
           {children}
         </div>
       </body>
