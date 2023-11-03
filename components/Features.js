@@ -1,7 +1,7 @@
 const features = () => {
   return (
     <div>
-      <main className="max-w-10xl flex flex-col-reverse gap-4 mt-6 px-5 items-center sm:flex-row xl:gap-48">
+      <main className="max-w-10xl flex flex-col-reverse gap-4 mt-24 px-5 items-center sm:flex-row xl:gap-48">
         <div className="flex flex-col gap-3 max-w-xl">
           <h1 className="text-textgr">Alwalys online</h1>
           <h1 className="text-4xl font-bold xl:text-6xl">
@@ -17,7 +17,7 @@ const features = () => {
           <img src="1l.png" alt="automation" className="" />
         </div>
       </main>
-      <main className="max-w-10xl flex flex-col-reverse gap-4 mt-6 px-5 items-center sm:flex-row-reverse xl:gap-48">
+      <main className="max-w-10xl flex flex-col-reverse gap-4 mt-24 px-5 items-center sm:flex-row-reverse xl:gap-48">
         <div className="flex flex-col gap-3 max-w-xl">
           <h1 className="text-textgr">Save some time</h1>
           <h1 className="text-4xl font-bold xl:text-6xl">
@@ -33,7 +33,7 @@ const features = () => {
           <img src="2l.png" alt="automation" className="" />
         </div>
       </main>
-      <main className="max-w-10xl flex flex-col-reverse gap-4 mt-6 px-5 items-center sm:flex-row xl:gap-48">
+      <main className="max-w-10xl flex flex-col-reverse gap-4 mt-24 px-5 items-center sm:flex-row xl:gap-48">
         <div className="flex flex-col gap-3 max-w-xl">
           <h1 className="text-textgr">Use anytime</h1>
           <h1 className="text-4xl font-bold xl:text-6xl">
@@ -50,8 +50,8 @@ const features = () => {
           <img src="3l.png" alt="automation" className="" />
         </div>
       </main>
-      <main className="max-w-10xl flex flex-col-reverse gap-4 mt-6 px-5 items-center sm:flex-row xl:gap-48 justify-between">
-        <div className="flex flex-col gap-3 max-w-xl">
+      <main className="max-w-10xl flex flex-col gap-4 mt-24 px-5 items-start sm:items-center sm:flex-row xl:gap-48 justify-between">
+        <div className="flex flex-col max-w-xl">
           <h1 className="text-4xl font-bold xl:text-6xl">
             The Product we <br/>work with.
           </h1>
