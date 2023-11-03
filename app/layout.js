@@ -4,7 +4,7 @@ import NavBar from "@/components/NavBar";
 import HeroSection from "@/components/HeroSection";
 import Features from "@/components/Features";
 import Cards from "@/components/Cards";
-import footer from "@/components/footer";
+import Footer from "@/components/Footer";
 
 const Poppin = Poppins({ subsets: ["latin"], weight: "400" });
 
@@ -22,7 +22,7 @@ export default function RootLayout({ children }) {
           <HeroSection />
           <Features/>
           <Cards/>
-          <footer/>
+          <Footer/>
           {children}
         </div>
       </body>
