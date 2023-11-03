@@ -79,7 +79,7 @@ const footer = () => {
         </div>
       </div>
       <div className="w-full border-t-2 mt-4"></div>
-      <div className="flex items-center justify-between px-4 mt-8  pb-5">
+      <div className="flex items-center justify-between flex-col sm:flex-row px-4 mt-8  pb-5">
         <div>
           <h1>Privacy & Terms</h1>
         </div>
