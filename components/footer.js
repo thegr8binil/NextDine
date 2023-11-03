@@ -6,14 +6,14 @@ const footer = () => {
         backgroundImage: `url("t.png")`,
       }}
     >
-      <div className="w-screen flex items-center mt-12 justify-center flex-col gap-4">
-        <h1 className="text-2xl text-white font-semibold">Want to Try it? </h1>
-        <h1 className="text-2xl text-white font-semibold">
+      <div className="w-screen flex items-center mt-12 justify-center flex-col gap-4 mb-12">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-semibold">Want to Try it? </h1>
+        <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-semibold">
           Try our 7 days free demo
         </h1>
-        <p className="text-white">Try demo for 7 days with full features.</p>
-        <button className="text-orange-500 bg-white p-3 px-6 rounded-lg">
-          <h1>Try free demo</h1>
+        <p className="text-white text-lg md:text-xl lg:text-2xl">Try demo for 7 days with full features.</p>
+        <button className="text-orange-500 bg-white p-3 flex gap-3 px-6 rounded-lg">
+          <h1 className="text-lg">Try free demo</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -30,6 +30,8 @@ const footer = () => {
             />
           </svg>
         </button>
+        <div>
+        </div>
       </div>
     </div>
   );
