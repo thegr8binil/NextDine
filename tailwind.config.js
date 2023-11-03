@@ -17,9 +17,6 @@ module.exports = {
         "11xl": "112rem",
         "12xl": "120rem",
       },
-      backgroundImage: {
-        'foot': "url('T.png')",
-      },
       colors: {
         borange: "#FF8709",
         textgr: "#BDBDBD",
