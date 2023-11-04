@@ -11,7 +11,7 @@ export default function HeroSection() {
         </h1>
         <div className="flex items-center justify-start text-lg font-normal mt-2 ">
            <Modal buttonText="Try free demo" />
-            <h1 className="font-normal text-slate-500">— Web, iOs and Android</h1>
+            <h1 className="font-normal text-slate-500">—Web, iOs & Android</h1>
         </div>
        
        </div>

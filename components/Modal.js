@@ -46,7 +46,7 @@ function Modal({ buttonText }) {
     <main>
       <button
         onClick={toggleModal}
-        className="bg-white text-orange-500 rounded-lg px-4 py-2 border border-orange-500 hover:bg-orange-500 hover:text-white"
+        className="bg-white text-orange-500 rounded-lg px-2 py-2 border border-orange-500 hover:bg-orange-500 hover:text-white"
         type="button"
       >
         {buttonText}
