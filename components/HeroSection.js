@@ -1,3 +1,4 @@
+import Modal from "@/components/Modal";
 export default function HeroSection() {
   return (
     <main className="max-w-10xl relative">
@@ -8,10 +9,8 @@ export default function HeroSection() {
           Say goodbye to cumbersome paperwork and hello to seamless automation
           with NextDines
         </h1>
-        <div className="flex items-center justify-start text-sm mt-2 ">
-            <button className="bg-orange-500 text-white rounded-lg px-4 py-2 text-lg font-normal hover:bg-orange-600 transition-all ease-in-out">
-            Get Started
-            </button>
+        <div className="flex items-center justify-start text-lg font-normal mt-2 ">
+           <Modal buttonText="Try free demo" />
             <h1 className="font-normal text-slate-500">— Web, iOs and Android</h1>
         </div>
        
@@ -22,3 +21,4 @@ export default function HeroSection() {
     </main>
   );
 }
+
