@@ -15,7 +15,6 @@ function Modal({ buttonText }) {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-  console.log("HELOOOO")
     const formData = {
       userName: name,
       companyName,
