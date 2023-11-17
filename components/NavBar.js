@@ -1,4 +1,5 @@
 import Modal from "@/components/Modal";
+import Link from "next/link";
 const navBar = () => {
   return (
     <main className="p-4 flex items-center justify-between text-sm sm:text-md md:text-xl max-w-10xl w-screen">
@@ -42,7 +43,7 @@ const navBar = () => {
       </div>
       <div>
         <div className=" text-orange-500 flex items-center justify-center gap-2">
-          <h1>Downloads</h1>
+         <Link href="/Downloads">Downloads</Link>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
