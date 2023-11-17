@@ -1,6 +1,7 @@
 import "./globals.css";
 import { Poppins } from "next/font/google";
 import NavBar from "@/components/NavBar";
+import Footer from "@/components/Footer";
 
 
 
@@ -17,9 +18,9 @@ export default function RootLayout({ children }) {
       <body className={Poppin.className}>
       <div className=" w-screen flex flex-col justify-center items-center">
       <NavBar />
+      {children}
+          <Footer/>
       </div>
-
-          {children}
       </body>
     </html>
   );
