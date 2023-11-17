@@ -1,9 +1,9 @@
+'use client';
 import Modal from "@/components/Modal";
-// import { useHistory } from 'react-router-dom';
 import Link from "next/link";
-const handleIconClick = () => {
-  
-  history.push('/Downloads');
+const onclickhandler = () => {
+  window.location.href =
+    "/Downloads";
 };
 const navBar = () => {
   return (
@@ -49,6 +49,7 @@ const navBar = () => {
       <div>
         <div className="flex items-center justify-center gap-2 text-orange-500 ">
          <Link href="/Downloads" className="hidden sm:inline-block">Downloads</Link>
+         <button onClick={onclickhandler} className="sm:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"
@@ -69,6 +70,7 @@ const navBar = () => {
               stroke-linejoin="round"
             />
           </svg>
+          </button>
         </div>
       </div>
       <div>
