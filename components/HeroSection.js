@@ -19,7 +19,7 @@ export default function HeroSection() {
           </div>
         </div>
       </div>
-      <img src="Product.jpg" alt="hero" className="object-cover" />
+      <img src="Product.jpg" alt="hero" className="object-cover w-full" />
     </main>
   );
 }
