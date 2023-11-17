@@ -41,7 +41,7 @@ const navBar = () => {
         <h1>NextDine</h1>
       </div>
       <div>
-        <button className=" text-orange-500 flex items-center justify-center gap-2">
+        <div className=" text-orange-500 flex items-center justify-center gap-2">
           <h1>Downloads</h1>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -63,7 +63,7 @@ const navBar = () => {
               stroke-linejoin="round"
             />
           </svg>
-        </button>
+        </div>
       </div>
       <div>
         <Modal buttonText="Request a Demo" />

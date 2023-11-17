@@ -3,10 +3,7 @@ const footer = () => {
   return (
     <main>
       <div
-        className="bg-cover bg-center max-w-9xl mt-8 flex items-center justify-center h-96"
-        style={{
-          backgroundImage: `url("t.png")`,
-        }}
+        className="bg-cover bg-center max-w-9xl mt-8 flex items-center justify-center h-96 bg-orange-500 rounded-xl"
       >
         <div className="w-screen flex items-center mt-12 justify-center flex-col gap-4 mb-12">
           <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-white font-semibold">
