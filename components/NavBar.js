@@ -39,7 +39,7 @@ const navBar = () => {
             </clipPath>
           </defs>
         </svg>
-        <h1>NextDine</h1>
+        <Link href="/">NextDine</Link>
       </div>
       <div>
         <div className=" text-orange-500 flex items-center justify-center gap-2">
