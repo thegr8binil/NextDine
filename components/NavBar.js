@@ -1,8 +1,13 @@
 import Modal from "@/components/Modal";
+// import { useHistory } from 'react-router-dom';
 import Link from "next/link";
+const handleIconClick = () => {
+  
+  history.push('/Downloads');
+};
 const navBar = () => {
   return (
-    <main className="p-4 flex items-center justify-between text-sm sm:text-md md:text-xl max-w-10xl w-screen">
+    <main className="flex items-center justify-between w-screen p-4 text-sm sm:text-md md:text-xl max-w-10xl">
       <div className="flex items-center gap-1">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -42,8 +47,8 @@ const navBar = () => {
         <Link href="/">NextDine</Link>
       </div>
       <div>
-        <div className=" text-orange-500 flex items-center justify-center gap-2">
-         <Link href="/Downloads">Downloads</Link>
+        <div className="flex items-center justify-center gap-2 text-orange-500 ">
+         <Link href="/Downloads" className="hidden sm:inline-block">Downloads</Link>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="24"

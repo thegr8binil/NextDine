@@ -1,19 +1,17 @@
-"use client";
 export default function Home() {
   const onclickhandler = () => {
-    console.log("Haii");
     window.location.href =
       "https://nexterpv1.s3.ap-south-1.amazonaws.com/fayiz_np/NextDines.msix";
   };
   return (
     <main>
-      <main className="max-w-10xl flex flex-col-reverse gap-4 items-center sm:flex-row xl:gap-48">
-        <main className="max-w-10xl flex flex-col-reverse gap-4 mt-24 px-5 items-center sm:flex-row-reverse xl:gap-48">
-          <div className="flex flex-col gap-3 max-w-xl">
+      <main className="flex flex-col-reverse items-center gap-4 max-w-10xl sm:flex-row xl:gap-48">
+        <main className="flex flex-col-reverse items-center gap-4 px-5 mt-24 max-w-10xl sm:flex-row-reverse xl:gap-48">
+          <div className="flex flex-col max-w-xl gap-3">
             <h1 className="text-4xl font-bold xl:text-6xl">
               Your all in one Restaurant ERP
             </h1>
-            <p className="text-sectext text-lg">
+            <p className="text-lg text-sectext">
               Cloud-Based Restaurant ERP supports your business on any device.
               Experience the freedom and flexibility of managing your operations
               seamlessly, whether you're using a desktop, laptop, tablet, or
@@ -38,9 +36,9 @@ export default function Home() {
               onClick={() => onclickhandler()}
             >
               <div className="h-full pt-12 pl-6 pr-10 border rounded-md bg-bgcard border-bline">
-                <div className="relative flex flex-col gap-2  items-center justify-center">
+                <div className="relative flex flex-col items-center justify-center gap-2">
                   <h1 className="text-lg font-semibold text-center">iOS</h1>
-                  <div className=" text-orange-500 flex items-center justify-center gap-2 border border-orange-500 hover:bg-orange-100 w-48 p-3 rounded-full">
+                  <div className="flex items-center justify-center w-48 gap-2 p-3 text-orange-500 border border-orange-500 rounded-full hover:bg-orange-100">
                     <a href="/Downloads">Downloads</a>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -72,9 +70,9 @@ export default function Home() {
               onClick={() => onclickhandler()}
             >
               <div className="h-full pt-12 pl-6 pr-10 border rounded-md bg-bgcard border-bline">
-                <div className="relative flex flex-col gap-2  items-center justify-center">
+                <div className="relative flex flex-col items-center justify-center gap-2">
                   <h1 className="text-lg font-semibold text-center">Android</h1>
-                  <div className=" text-orange-500 flex items-center justify-center gap-2 border border-orange-500 hover:bg-orange-100 w-48 p-3 rounded-full">
+                  <div className="flex items-center justify-center w-48 gap-2 p-3 text-orange-500 border border-orange-500 rounded-full hover:bg-orange-100">
                     <a href="/Downloads">Downloads</a>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -106,9 +104,9 @@ export default function Home() {
               onClick={() => onclickhandler()}
             >
               <div className="h-full pt-12 pl-6 pr-10 border rounded-md bg-bgcard border-bline">
-                <div className="relative flex flex-col gap-2  items-center justify-center">
+                <div className="relative flex flex-col items-center justify-center gap-2">
                   <h1 className="text-lg font-semibold text-center">Windows</h1>
-                  <div className=" text-orange-500 flex items-center justify-center gap-2 border border-orange-500 hover:bg-orange-100 w-48 p-3 rounded-full">
+                  <div className="flex items-center justify-center w-48 gap-2 p-3 text-orange-500 border border-orange-500 rounded-full hover:bg-orange-100">
                     <a href="/Downloads">Downloads</a>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -141,7 +139,7 @@ export default function Home() {
       <div className="flex items-center justify-center w-full bg-[#F6F6F6] rounded-lg mt-10">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center ">
-            <div className="bg-orange-200 p-2 rounded-full m-2">
+            <div className="p-2 m-2 bg-orange-200 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="36"
@@ -200,7 +198,7 @@ export default function Home() {
             <a>Access our web version</a>
           </div>
           <div className="flex items-center ">
-            <div className="bg-orange-200 p-2 rounded-full m-2">
+            <div className="p-2 m-2 bg-orange-200 rounded-full">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="31"
