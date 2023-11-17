@@ -26,8 +26,8 @@ export default function Home() {
           Downloads
         </h1>
       </div>
-      <main className="flex flex-row flex-wrap w-11/12 gap-4 sm:flex-row bg-[#F6F6F6]">
-          <div className="flex-grow w-64">
+      <main className="flex flex-row flex-wrap w-11/12 gap-4 sm:flex-row">
+          <div className="flex-grow w-64  bg-[#F6F6F6]">
             <div className="h-full pt-12 pl-6 pr-10 border rounded-md bg-bgcard border-bline">
               <div className="relative flex flex-col gap-2  items-center justify-center">
               
@@ -61,7 +61,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex-grow w-64">
+          <div className="flex-grow w-64  bg-[#F6F6F6]">
             <div className="h-full pt-12 pl-6 pr-10 border rounded-md bg-bgcard border-bline">
               <div className="relative flex flex-col gap-2  items-center justify-center">
               
@@ -95,7 +95,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="flex-grow w-64">
+          <div className="flex-grow w-64  bg-[#F6F6F6]">
             <div className="h-full pt-12 pl-6 pr-10 border rounded-md bg-bgcard border-bline">
               <div className="relative flex flex-col gap-2  items-center justify-center">
               
