@@ -14,7 +14,7 @@ export default function Home() {
   };
   const web = () => {
     window.location.href =
-      "http://www.doner.nextdines.com";
+      "https://doner.nexteons.com/";
   };
   return (
     <main>
@@ -149,10 +149,10 @@ export default function Home() {
           </main>
         </main>
       </div>
-      <div className="flex items-center justify-center w-full bg-[#F6F6F6] rounded-lg mt-10">
+      <div className="flex items-center justify-center w-full bg-[#F6F6F6] rounded-lg mt-10 cursor-pointer" onClick={()=> web()}>
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center ">
-            <div className="p-2 m-2 bg-orange-200 rounded-full " onClick={()=> web()}>
+            <div className="p-2 m-2 bg-orange-200 rounded-full " >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="36"
