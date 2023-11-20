@@ -52,7 +52,7 @@ export default function Home() {
                 <div className="relative flex flex-col items-center justify-center gap-2">
                   <h1 className="text-lg font-semibold text-center">iOS</h1>
                   <div className="flex items-center justify-center w-48 gap-2 p-3 text-orange-500 border border-orange-500 rounded-full hover:bg-orange-100">
-                    <a href="/Downloads">Downloads</a>
+                    <a href="/Downloads">Download</a>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -86,7 +86,7 @@ export default function Home() {
                 <div className="relative flex flex-col items-center justify-center gap-2">
                   <h1 className="text-lg font-semibold text-center">Android</h1>
                   <div className="flex items-center justify-center w-48 gap-2 p-3 text-orange-500 border border-orange-500 rounded-full hover:bg-orange-100">
-                    <a href="/Downloads">Downloads</a>
+                    <a href="/Downloads">Download</a>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
@@ -120,7 +120,7 @@ export default function Home() {
                 <div className="relative flex flex-col items-center justify-center gap-2">
                   <h1 className="text-lg font-semibold text-center">Windows</h1>
                   <div className="flex items-center justify-center w-48 gap-2 p-3 text-orange-500 border border-orange-500 rounded-full hover:bg-orange-100">
-                    <a href="/Downloads">Downloads</a>
+                    <a href="/Downloads">Download</a>
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       width="24"
