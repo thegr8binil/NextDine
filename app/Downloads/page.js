@@ -1,8 +1,20 @@
 'use client'
 export default function Home() {
-  const onclickhandler = () => {
+  const windowsapp = () => {
     window.location.href =
-      "https://nexterpv1.s3.ap-south-1.amazonaws.com/fayiz_np/NextDines.msix";
+      "https://nexterpv1.s3.ap-south-1.amazonaws.com/fayiz_np/NextDines.exe";
+  };
+  const Android = () => {
+    window.location.href =
+      "https://nexterpv1.s3.ap-south-1.amazonaws.com/fayiz_np/NextDines.apk";
+  };
+  const ios = () => {
+    window.location.href =
+      "https://www.apple.com/in/app-store/";
+  };
+  const web = () => {
+    window.location.href =
+      "http://www.doner.nextdines.com";
   };
   return (
     <main>
@@ -34,7 +46,7 @@ export default function Home() {
           <main className="flex flex-row flex-wrap w-11/12 gap-4 sm:flex-row">
             <div
               className="flex-grow w-64  bg-[#F6F6F6] cursor-pointer"
-              onClick={() => onclickhandler()}
+              onClick={() => ios()}
             >
               <div className="h-full pt-12 pl-6 pr-10 border rounded-md bg-bgcard border-bline">
                 <div className="relative flex flex-col items-center justify-center gap-2">
@@ -68,7 +80,7 @@ export default function Home() {
             </div>
             <div
               className="flex-grow w-64  bg-[#F6F6F6] cursor-pointer"
-              onClick={() => onclickhandler()}
+              onClick={() => Android()}
             >
               <div className="h-full pt-12 pl-6 pr-10 border rounded-md bg-bgcard border-bline">
                 <div className="relative flex flex-col items-center justify-center gap-2">
@@ -102,7 +114,7 @@ export default function Home() {
             </div>
             <div
               className="flex-grow w-64  bg-[#F6F6F6] cursor-pointer"
-              onClick={() => onclickhandler()}
+              onClick={() => windowsapp()}
             >
               <div className="h-full pt-12 pl-6 pr-10 border rounded-md bg-bgcard border-bline">
                 <div className="relative flex flex-col items-center justify-center gap-2">
@@ -140,7 +152,7 @@ export default function Home() {
       <div className="flex items-center justify-center w-full bg-[#F6F6F6] rounded-lg mt-10">
         <div className="flex items-center justify-between w-full">
           <div className="flex items-center ">
-            <div className="p-2 m-2 bg-orange-200 rounded-full">
+            <div className="p-2 m-2 bg-orange-200 rounded-full " onClick={()=> web()}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="36"
